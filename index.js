@@ -10,7 +10,7 @@ Pomocí CSS selektoru vyberte obrázek ve třetí zprávě (id zprávy je zprava
 
 
 const bodyElement = document.querySelector("body")
-const zpravy = document.querySelector("news")
+const zpravy = document.querySelector(".news")
 const nadpis = document.querySelector("h1")
 const prvniZprava = document.querySelector("#zprava1")
 const obrazek = document.querySelector("#zprava3 img")
